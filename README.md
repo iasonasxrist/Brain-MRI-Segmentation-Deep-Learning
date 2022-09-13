@@ -37,4 +37,4 @@ Result visualization : visualization visualization
 Disclaimer and known issues
 These codes are implemented in Tensorflow, Pytorch
 All trainings have been executed into kaggle enviroment due to GPU availability.
-You can find and fork all my implementation into my kaggle. (link)
+You can find and fork all my implementation into [my kaggle](https://www.kaggle.com/iasonasxrist).
