@@ -21,7 +21,7 @@ University of West Attica
 Running
 Pre-installation:Tensorflow,Keras,nibabel,sklearn,numpy,pandas, PIL
 
-Download and unzip the dataset from Kaggle 
+Download and unzip the dataset from [Kaggle](https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation) 
 
 Use N4ITK to correct the data: python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG
 
