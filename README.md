@@ -38,3 +38,32 @@ Disclaimer and known issues
 These codes are implemented in Tensorflow, Pytorch
 All trainings have been executed into kaggle enviroment due to GPU availability.
 You can find and fork all my implementation into [my kaggle](https://www.kaggle.com/iasonasxrist).
+
+
+
+# CLIP prefix captioning.
+
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>  
+Inference Notebook: <a href="https://colab.research.google.com/drive/1tuoAC5F4sC7qid56Z0ap-stR3rwdk0ZV?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=20></a>  
+
+
+
+
+
+## Official implementation for the paper ["ClipCap: CLIP Prefix for Image Captioning"](https://arxiv.org/abs/2111.09734)
+
+
+
+
+## Description  
+Image captioning is a complicated task, where usually a pretrained detection network is used, requires additional supervision in the form of object annotation. We present a new approach that does not requires additional information (i.e. requires only images and captions), thus can be applied to any data. In addition, our model's training time is much faster than similar methods while achieving comparable to state-of-the-art results, even for the Conceptual Captions dataset contains over 3M images. 
+
+In our work, we use the [CLIP](https://github.com/openai/CLIP) model, which was already trained over an extremely large number of images, thus is capable of generating semantic encodings for arbitrary images without additional supervision. To produce meaningful sentences we fine-tune a pretrained language model, which has been proven to be successful for other natural language tasks. The key idea is to use the CLIP encoding as a prefix to the textual captions by employing a simple mapping network over the raw encoding, and then fine-tune our language model to generate a valid caption. In addition, we present another variant, where we utilize a transformer architecture for the mapping network and avoid the fine-tuning of GPT-2. Still, our light model achieve comaparable to state-of-the-art over nocaps dataset.
+
+## COCO Examples
+
+<table>
+  <tr>
+    <td><img src="Images/COCO_val2014_000000562207.jpg" ></td>
+    <td><img src="Images/COCO_val2014_000000165547.jpg" ></td>
+    <td><img src="Images/COCO_val2014_000000579664.jpg" ></td>
