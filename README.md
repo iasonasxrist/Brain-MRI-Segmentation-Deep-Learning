@@ -40,7 +40,7 @@ Train the model: python train.py
 Results
 Result visualization : visualization visualization
 
-![image](https://user-images.githubusercontent.com/80000902/194289022-9bdf1591-1a3a-4741-89fe-d175424e3ecd.png)
+![image](https://user-images.githubusercontent.com/80000902/194289303-45078511-6da7-4554-956f-446b5be7a5aa.png)
 ![image](https://user-images.githubusercontent.com/80000902/194289240-feabf62a-5572-4e38-81c4-cd25b89133c9.png)
 
 
