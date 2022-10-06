@@ -24,11 +24,6 @@ University of West Attica
 
 
 
-![image](https://user-images.githubusercontent.com/80000902/194288729-9bad0105-5722-4a3b-90ac-fff4754fce53.png)
-![image](https://user-images.githubusercontent.com/80000902/194288769-584548ef-97e2-4297-bc8d-7ff97392e11e.png)
-
-
-
 
 Running
 Pre-installation:Tensorflow,Keras,nibabel,sklearn,numpy,pandas, PIL
@@ -44,6 +39,10 @@ Train the model: python train.py
 
 Results
 Result visualization : visualization visualization
+
+![image](https://user-images.githubusercontent.com/80000902/194289022-9bdf1591-1a3a-4741-89fe-d175424e3ecd.png)
+![image](https://user-images.githubusercontent.com/80000902/194289026-afc0a18f-1bfb-4c5f-ba33-df61bdb1d93c.png)
+
 
 
 Disclaimer and known issues
