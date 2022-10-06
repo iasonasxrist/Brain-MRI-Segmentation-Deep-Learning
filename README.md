@@ -3,7 +3,7 @@
  <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>  
  
  
-Inference Notebook: <a https://www.kaggle.com/code/iasonasxrist/mri-brain-tumour-segmentation-with-unet-cnn?scriptVersionId=107332844 > </a>  
+Inference Notebook: <a> https://www.kaggle.com/code/iasonasxrist/mri-brain-tumour-segmentation-with-unet-cnn?scriptVersionId=107332844 </a>  
 
 
 Quantitative analysis of brain MRI is routine for many neurological diseases and conditions and relies on accurate segmentation of structures of interest. Deep learning-based segmentation approaches for brain MRI are gaining interest due to their self-learning and generalization ability over large amounts of data.
