@@ -30,15 +30,13 @@ Pre-installation:Tensorflow,Keras,nibabel,sklearn,numpy,pandas, PIL
 
 Download and unzip the dataset from [Kaggle](https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation) 
 
-Use N4ITK to correct the data: python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG
 
-Train the model: python train.py
 
 
 
 
 Results
-Result visualization : visualization visualization
+Visualization :
 
 ![image](https://user-images.githubusercontent.com/80000902/194289790-27f1250a-69b7-4f70-906c-0fc55dfe660d.png)
 
